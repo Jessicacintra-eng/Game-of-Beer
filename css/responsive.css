@@ -1,0 +1,25 @@
+@media (min-width:1440px){
+    
+}
+@media (max-width:1026px){
+    
+    
+}
+@media (max-width:769px){
+    body{
+        background-image: url("../image/image/Background-768.svg");
+    }
+}
+@media (max-width:426px){
+    body{
+        background-image: url("../image/image/Background-mobile.svg");
+    }
+    h1{
+        font-size: 1.8em;
+        padding-top: 1.3em;
+    }
+    .imagemArabesco > img{
+        width: 15em;
+    }
+}
+
