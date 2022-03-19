@@ -1,8 +1,93 @@
 main{
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y:center;
-    background-position-x: center;
-    width: 100%;
-    height: 100%;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+#imagemGanhou{
+ display: flex;
+ justify-content: center;
+ padding: 0;
+}
+ #botoes-ganhou{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+}
+/* #botoes-ganhou img{
+    background-color: chocolate;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 150px;
+    height:80px;
+
+} */
+.container {
+    position: relative;
+    width: 100%; 
+    max-width: 280px;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+.container .btn-jogarnovamente {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color:black;
+    font-size: 35px;
+    letter-spacing: 0.05em;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: fonteTexto;
+  }
+  
+  .container .btn-jogarnovamente:hover {
+      font-size: 38px;
+  }
+  .container-2 {
+    position: relative;
+    width: 100%;
+    max-width: 280px;
+  }
+  
+  .container-2 img {
+    width: 100%;
+    height: auto;
+  }
+.container-2 .btn-chega {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color:black;
+    font-size: 35px;
+    letter-spacing: 0.05em;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-family: fonteTexto;
+  }
+  
+  .container-2 .btn-chega:hover {
+    font-size: 38px;
+  }
