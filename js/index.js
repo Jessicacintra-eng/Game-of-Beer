@@ -15,14 +15,14 @@ overAge = function () {
   window.location.assign("./html/obrigada.html");
  }
  function avatar2(){
-  window.location.href="./html/obrigada.html";
+  window.location.assign("./html/ganhou.html");
  }
  function avatar3(){
-  location.href="../html/obrigada.html"
+  window.location.assign("./html/obrigada.html");
  }
  function jogarDeNovo(){
-  location.href="../index.html"
+  window.location.assign("../index.html");
  }
  function desistir(){
-  location.href="./obrigada.html"
+  window.location.assign("./obrigada.html");
  }
