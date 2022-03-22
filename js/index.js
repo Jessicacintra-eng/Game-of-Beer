@@ -12,7 +12,7 @@ overAge = function () {
   }
 
  function avatar1(){
-  location.href="../html/obrigada.html"
+  window.location.href="../html/obrigada.html";
  }
  function avatar2(){
   location.href="../html/obrigada.html"
