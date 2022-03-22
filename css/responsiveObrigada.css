@@ -1,0 +1,91 @@
+@media (max-width:1026px) {
+    main {
+        max-width: 700px;
+        gap: 0;
+    }
+
+    h2 {
+        font-size: 5em;
+    }
+    h3{
+    
+        font-size:40px;
+    }
+    #compartilhe img{
+        height:45px;
+        width: 45px;
+    }
+    #agradecimento article{
+        font-size: 60px;
+    }
+    footer{
+        top:-10%;
+        font-size: small ;
+    }
+}
+
+@media(max-width:769px) {
+    #agradecimento article {
+        font-size: 50px;
+    }
+    main {
+        max-width: 550px;
+        justify-content: space-evenly;
+    }
+    
+}
+@media(max-width:426px) {
+    h2 {
+        font-size: 3em;
+    }
+    #agradecimento article {
+        font-size: 45px;
+        width: auto;
+    }
+    #agradecimento{
+        flex-direction: column;
+        align-items: center;
+        padding: 0 40px;
+        
+    }
+    #contatos{
+        width: auto;
+    }
+    #redes img{
+    width: 40px;
+    height: 40px;
+    }
+    #compartilhe img{
+        height:35px;
+        width: 35px;
+    }
+    footer{
+        justify-content: center;
+        font-size: small ;
+        top:-5%;
+        height:25px;
+    }
+
+}
+@media (max-width:376px){
+    
+    h3 {
+        font-size: 30px;
+    }
+    main {
+        max-width: 550px;
+        justify-content: space-evenly;
+    }
+    #redes img{
+        width: 25px;
+        height: 25px;
+        }
+        #compartilhe img{
+            height:25px;
+            width: 25px;
+        }
+        #compartilhe{
+            font-size: inherit;
+        }
+    
+}

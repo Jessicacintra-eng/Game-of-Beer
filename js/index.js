@@ -10,3 +10,19 @@ overAge = function () {
   goBack = function () {
       window.history.back();
   }
+
+ function avatar1(){
+  location.href="../html/obrigada.html"
+ }
+ function avatar2(){
+  location.href="../html/obrigada.html"
+ }
+ function avatar3(){
+  location.href="../html/obrigada.html"
+ }
+ function jogarDeNovo(){
+  location.href="../index.html"
+ }
+ function desistir(){
+  location.href="./obrigada.html"
+ }

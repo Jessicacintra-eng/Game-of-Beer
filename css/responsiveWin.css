@@ -1,37 +1,76 @@
 @media (max-width:1026px){
-    h1{
-        font-size: 3.0em;
-    }
-    article{
-        font-size: 2.2em;
-    }
-    /* #imagemGanhou>img{
-        height:250px;
-        width: 400px;
-    } */
+    
+    
     #botoes-ganhou{
         gap: 20px;
     }
-    .container{
-        max-width: 250px;
-    }
-    .container2{
-        max-width: 250px;
-    }
-    
-}
-@media (max-width:769px){
-    .container{
+    .container1{
         max-width: 200px;
     }
     .container2{
         max-width: 200px;
-    } 
-    .container .btn-jogarnovamente{
+    }
+    .container1 .btn-jogarnovamente{
         font-size: 28px;
     }
     
     .container2 .btn-chega{
         font-size: 28px;
     }
+    footer{
+        top:-10%;
+        font-size: small ;
+    }
+}
+@media (max-width:426px){
+   
+    .container1{
+        max-width: 200px;
+    }
+    .container2{
+        max-width: 200px;
+    } 
+    .container1 .btn-jogarnovamente{
+        font-size: 28px;
+    }
+    
+    .container2 .btn-chega{
+        font-size: 28px;
+    }
+    #imagemGanhou>img {
+        width: 300px;
+        height: 200px;
+      }
+      footer{
+          top:0;
+          right:25%;
+          height:25px;
+      }
+      #rights{
+          flex-direction: row;
+      }
+      span{
+          height:25px;
+      }
+}
+@media (max-width:376px){
+   
+    #botoes-ganhou{
+        gap:0;
+        flex-direction: column;
+    }
+    .container1{
+        max-width: 150px;
+    }
+    .container2{
+        max-width: 150px;
+    } 
+    .container1 .btn-jogarnovamente{
+        font-size: 20px;
+    }
+    
+    .container2 .btn-chega{
+        font-size: 20px;
+    }
+    
 }

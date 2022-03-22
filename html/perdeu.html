@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="../css/header-footer.css">
     <link rel="stylesheet" href="../css/mainWinLoose.css">
     
-    <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="../css/responsiveLoose.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 
 
 
@@ -22,10 +22,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins&display=swap" rel="stylesheet">
     <title>Game of Beers</title>
 
-    <link rel="icon" size="32" data-hid="favicon-32"  href="image/icons8-beer-100.png" type="image/png">
+    <link rel="icon" size="32" data-hid="favicon-32"  href="../image/icons/icons8-beer-100.png" type="image/png">
 
    
-
 </head>
 
 <body id="root">
@@ -39,12 +38,12 @@
             <img src="../image/image/spilledBeer.svg" width="600" height="350" alt="garrafa de cerveja derramada" >
         </div>
         <div id="botoes-ganhou">
-            <div class="container2">
+            <div onclick="desistir()" class="container2">
                 <img src="../image/Botao.svg" width="200" height="40" alt="pergaminho">
                 <button class="btn-chega">Desistir</button>
             </div>
-            <div class="container">
-                <img src="../image/Botao.svg" width="200" height="40"alt="pergaminho">
+            <div onclick="jogarDeNovo()" class="container1">
+                <img  src="../image/Botao.svg" width="200" height="40"alt="pergaminho">
                 <button class="btn-jogarnovamente">Jogar Novamente</button>
             </div>
             
@@ -59,7 +58,7 @@
     </footer>
     
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
 </body>
 
 </html>

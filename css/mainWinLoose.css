@@ -1,121 +1,136 @@
-    h1{
-        font-size: 3.5em;
-        padding-top:0.3em;
+    h1 {
+      font-size: 3.5em;
+      padding-top: 0.3em;
     }
+
     main {
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    article {
+      font-size: 35px;
+      letter-spacing: 0.08em;
+      text-align: center;
+      font-weight: 595;
+    }
+
+    #imagemGanhou {
+      display: flex;
+      justify-content: center;
+      padding: 0;
+    }
+
+    #imagemGanhou>img {
+      width: 500px;
+      height: 300px;
+    }
+
+    #botoes-ganhou {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 40px;
+      align-items: center;
+      width: 100%;
+      height: fit-content;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container1 {
+      position: relative;
+      width: 100%;
+      max-width: 280px;
+      transition: all 0.1s;
+
+      cursor: pointer;
+    }
+
+    .container1:hover {
+      transform: scale(110%);
+    }
+
+    .container1:active {
+      transform: scale(100%);
+    }
+
+    .container1 img {
+      width: 100%;
+      height: auto;
+    }
+
+    .container1 .btn-jogarnovamente {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: transparent;
+      color: black;
+      font-size: 35px;
+      font-weight: 595;
+      letter-spacing: 0.05em;
+      padding: 0;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+      font-family: fonteTexto;
+    }
+
+    .container2 {
+      position: relative;
+      width: 100%;
+      max-width: 280px;
+      cursor: pointer;
+      transition: all 0.1s;
+    }
+
+    .container2:hover {
+      transform: scale(110%);
+    }
+
+    .container2:active {
+      transform: scale(100%);
+    }
+
+    .container2 img {
+      width: 100%;
+      height: auto;
+    }
+
+    .container2 .btn-chega {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: transparent;
+      color: black;
+      font-size: 35px;
+      font-weight: 595;
+      letter-spacing: 0.05em;
+      padding: 0;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+      font-family: fonteTexto;
+    }
+    footer {
+      position: relative;
+      top:0;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: flex-start;
+      padding: 0px;
+      margin: 0;
+      color: var(--primaria);
+      transition: all 0.3s;
   }
-  article{
-    font-size: 35px;
-    letter-spacing: 0.08em;
-    text-align: center;
-    font-weight:595;
-  }
-  #imagemGanhou {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-  }
-  #imagemGanhou>img{
-    width: 500px;
-    height: 300px;
-  }
-  
-  #botoes-ganhou {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap:40px;
-    align-items: center;
-    width: 100%;
-    height: fit-content;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    position: relative;
-    width: 100%;
-    max-width: 280px;
-    transition: all 0.1s;
-    
-    cursor: pointer;
-  }
-  
-  .container:hover {
-    transform: scale(110%);
-  }
-  .container:active {
-    transform: scale(100%);
-  }
-  
-  .container img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .container .btn-jogarnovamente {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: transparent;
-    color: black;
-    font-size: 35px;
-    font-weight:595;
-    letter-spacing: 0.05em;
-    padding: 0;
-    border: none;
-    cursor: pointer;
-    text-align: center;
-    font-family: fonteTexto;
-  }
-  
-  
-  
-  .container2 {
-    position: relative;
-    width: 100%;
-    max-width: 280px;
-    cursor: pointer;
-    transition: all 0.1s;
-  }
-  
-  .container2:hover {
-    transform: scale(110%);
-  }
-  
-  .container2:active {
-    transform: scale(100%);
-  }
-  .container2 img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .container2 .btn-chega {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: transparent;
-    color: black;
-    font-size: 35px;
-    font-weight:595;
-    letter-spacing: 0.05em;
-    padding: 0;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-    font-family: fonteTexto;
-  }
-  
-  

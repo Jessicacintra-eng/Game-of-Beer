@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One">
     <title>Game of Beers</title>
 
-    <link rel="icon" size="32" data-hid="favicon-32"  href="image/icons8-beer-100.png" type="image/png">
+    <link rel="icon" size="32" data-hid="favicon-32"  href="./image/icons/icons8-beer-100.png" type="image/png">
 
    
 
@@ -26,14 +26,14 @@
 <body id="root">
     <header>
         <h1>Game of beer</h1>
-        <div class="container imagemArabesco">
+        <div class="imagemArabesco">
             <img src="image/image/Arabesco.svg"  alt="Elegant Victorian Style Design" >
         </div>
     </header>
     <main>
         <article> Olá, viajante! Seja bem vindo a nossa taverna! Aqui você poderá enfrentar três especialistas, cada um com um nível de expertise diferente (e um estilo em seu sobrenome). Será que você é capaz de responder essas trivias e ganhar um chopp de graça ?</article>
         <section id="personagens">
-            <div class = "grut shine">
+            <div onclick="avatar1()" class = "grut shine">
                 <img  src="./image/image/Grut.svg" alt="">
                 <article>Barthar Grutgor</article>
             </div>
@@ -63,8 +63,8 @@
           <button class="yes" onclick="overAge()">Sim</button>
           <button class="no" onclick="underAge()">Não</button>
           <div class="underBox">
-            <span class="title">Sorry!</span>
-            <span>You need to be at least 18 to visit our website.</span>
+            <span class="title">Ops!</span>
+            <span>Você precisa ter pelo menos 18 anos para jogar.</span>
             <button class="back" onclick="goBack()">Go Back</button>
           </div>
         <span>
