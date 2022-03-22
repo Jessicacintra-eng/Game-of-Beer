@@ -35,6 +35,7 @@ h1{
 
 footer{  
     position:relative;
+    top:40%;
     bottom:0;
     width:100%;
     display: flex;
@@ -42,12 +43,13 @@ footer{
     justify-content: flex-end;
     align-items: flex-start;
     padding: 0px;
+    margin: 0;
     color:var(--background);
     transition: all 0.3s;
 }
 span {
     content: "\00A9";
-    color: black;
+    color: var(--primaria);
     font-size: 40px;
 }
 #rights{
@@ -62,7 +64,7 @@ span {
 }
 #rights:hover{
     display: flex;
-    color:black;
-    background-color: blanchedalmond;
+    color:var(--primaria);
+    background-color: var(--secundaria) ;
 }
 

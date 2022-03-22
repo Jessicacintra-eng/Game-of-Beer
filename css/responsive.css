@@ -3,17 +3,19 @@
 }
 @media (max-width:1026px){
     
-    
+}
 @media (max-width:769px){
+    html,
     body{
         background-image: url("../image/image/Background-768.svg");
+        background-repeat: no-repeat;
     }
     h1{
         font-size: 2.5em;
         padding-top: 1em;
     }
 }
-}
+
 @media (max-width:426px){
     body{
         background-image: url("../image/image/Background-mobile.svg");
