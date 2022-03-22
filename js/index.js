@@ -15,7 +15,7 @@ overAge = function () {
   window.location.assign("./html/obrigada.html");
  }
  function avatar2(){
-  window.location.href="Game-of-Beer./html/obrigada.html";
+  window.location.href="Game-of-Beer/html/obrigada.html";
  }
  function avatar3(){
   location.href="../html/obrigada.html"
