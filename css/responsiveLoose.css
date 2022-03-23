@@ -9,7 +9,7 @@
 @media (max-width:1026px){
     
     
-    #botoes-ganhou{
+    #botoes{
         gap: 20px;
     }
     .container1{
@@ -63,7 +63,7 @@
 }
 @media (max-width:376px){
    
-    #botoes-ganhou{
+    #botoes{
         gap:0;
         flex-direction: column;
     }

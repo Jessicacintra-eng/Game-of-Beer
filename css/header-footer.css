@@ -36,7 +36,7 @@ footer {
     position: relative;
     top: 40%;
     bottom: 0;
-    width: 100%;
+    width: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;

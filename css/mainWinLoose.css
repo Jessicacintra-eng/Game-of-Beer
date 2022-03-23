@@ -30,7 +30,7 @@
       height: 300px;
     }
 
-    #botoes-ganhou {
+    #botoes {
       display: flex;
       flex-direction: row;
       justify-content: center;

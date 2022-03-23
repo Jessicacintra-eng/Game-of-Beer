@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/header-footer.css">
     <link rel="stylesheet" href="../css/mainWinLoose.css">
     <link rel="stylesheet" href="../css/mainAvatar.css">
+    <link rel="stylesheet" href="../css/mainstg.css">
     <link rel="stylesheet" href="../css/responsiveAvatar.css">
     <link rel="stylesheet" href="../css/responsive.css">
 
@@ -34,26 +35,27 @@
     <main>
         <section class="story">
             <div class="avatar">
-                <img src="../image/avatar/Stout.svg" alt="Imagem de um dwarf Barthar Grutgor">
+                <img src="../image/avatar/Grut.svg" alt="Imagem de um dwarf Barthar Grutgor">
             </div>
-            <div class="lifestory">
-                <h2 class="nome">Nyssora Stoutroar </h2>
-                <p>Stout adora sabores amargos que lembram torra de café e chocolate amargo. Adora harmonizações e está sempre em busca da combinação perfeita. Entende o suficiente de cervejas para bater um papo por horas. </p>
-                <div class="habilidades">
-                    <p>Sabedoria &#9830; &#9830; &#9830; &#9830; &#9830; </p>
-                    <p>Destreza &#9830; &#9830; &#9830;</p>
-                    <p>Paladar &#9830; &#9830; &#9830; &#9830;</p>
-                </div>
+            <div class="pergunta">
+                <h2 class="desafio">Desafio 01 </h2>
+                <p>Qual das listas abaixo contem um ingrediente que não pode ser adicionado em cervejas:</p>
+            <div class="respostas">
+                <p>a. Água, malte de cevada e lúpulo </p>
+                <p>b. Água, malte de trigo e levedura </p>
+                <p>c. Água, malte de cevada, cachaça e lupulo </p>
+                <p>d. Água, mel, cascas de frutas, sementes</p>
+            </div>
             </div>
         </section>
-        <div id="botoes">
-            <div onclick="jogarDeNovo()" class="container2">
+        <div id="botoes" onclick="overAge()">
+            <div onclick="jogarDeNovo()"  class="container2">
                 <img src="../image/Botao.svg" width="200" height="40" alt="pergaminho">
-                <button class="btn-chega">Voltar</button>
+                <button class="btn-chega">Desistir</button>
             </div>
-            <div onclick="jogar()" class="container1">
+            <div onclick="responderFase1('c')" class="container1">
                 <img  src="../image/Botao.svg" width="200" height="40"alt="pergaminho">
-                <button class="btn-jogarnovamente">Jogar</button>
+                <button class="btn-jogarnovamente">Responder</button>
             </div>
             
         </div>
@@ -69,7 +71,7 @@
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <script type="text/javascript" src="../js/index.js"></script>
-    <script type="text/javascript" src="../js/avatar2.js"></script>
+    <script type="text/javascript" src="../js/avatar1.js"></script>
 </body>
 
 </html>

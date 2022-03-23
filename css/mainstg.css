@@ -1,0 +1,16 @@
+.pergunta{
+    width: 700px ;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 10px;
+}
+.desafio{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 45px;
+    padding: 15px;
+}
+.respostas p:hover{
+    background-color: burlywood;
+    border-radius: 0.5em;
+}
