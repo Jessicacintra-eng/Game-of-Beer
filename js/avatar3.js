@@ -43,7 +43,7 @@ function responderFase2(resposta) {
             break;
         } else {
             if (resposta == "d") {
-                alert(`Acertou é letra ${resposta.toUpperCase()} você está conseguindo essas respostas de maneira ilegal?`);
+                alert(`Acertou é a letra ${resposta.toUpperCase()}. Como você sabe tanto de deusas?`);
                 alert("Uma famosa tabuinha cuneiforme de 4000 anos atrás tem um poema chamado Hino a Ninkasi, um hino de louvor à deusa suméria da cerveja.");
                 window.location.assign("../avatar3/av3stg3.html");
                 break;
