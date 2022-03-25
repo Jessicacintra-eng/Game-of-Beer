@@ -75,8 +75,8 @@ function responderFase3(resposta) {
             break;
         } else {
             if (resposta == "b") {
-                alert(`Já viajou pra Alemanha é?! é a letra${resposta.toUpperCase()}!`);
-                alert("Quando falamos em Alemanha falamos em tradição! Viva a Reinheitsgebot ")
+                alert(`Prost! Já viajou pra Alemanha é?! é a letra ${resposta.toUpperCase()}!`);
+                alert("Quando falamos em Alemanha falamos em tradição! Viva a Reinheitsgebot, a lei de pureza Alemã. ")
                 window.location.assign("../avatar2/av2stg4.html");
                 break;
             } else if (resposta == "a" || resposta == "c" || resposta == "d") {
@@ -108,7 +108,7 @@ function responderFase4(resposta) {
             break;
         } else {
             if (resposta == "d") {
-                alert(`proost. ${resposta.toUpperCase()} está certíssima!`);
+                alert(`Proost. ${resposta.toUpperCase()} está certíssima!`);
                 alert("Os belgas adoram umas cervejas diferentonas, eu, particularmente, amo uma witbier no verão...")
                 window.location.assign("../avatar2/av2stg5.html");
                 break;
