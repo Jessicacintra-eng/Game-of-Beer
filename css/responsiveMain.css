@@ -1,36 +1,173 @@
-@media (max-width:426px){
-    main{
-        width: auto;
-    }
-    #personagens{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 100%;
-    }
-    article{
-        width: 400px;
+@media (max-width:1026px){
+    .mainpage > article{
+        width: 700px;
+        font-weight: 600;
+        font-size:1.8em;
     }
     #personagens div{
-    width: 150px;
+        width: 150px;
+    }
+    .avatar >img{
+        width: 150px;
+        width: 150px;
+    }
+    .avatar > article {
+        font-size: 1.8em;
+    }
+
+}
+@media (max-width:769px){
+    
+    .mainpage > article{
+        width:500px;
+        height:auto;
+        font-weight: 600;
+        font-size:1.5em;
+    }
+    .avatar >img{
+        width: 120px;
+        width: 120px;
+    }
+    .avatar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+    .avatar > article {
+        font-size: 1.5em;
     }
     .grut.shine{
         position:absolute;
-        right:32%;
+        right:60%;
     }
     
     .stout.shine{
         position:absolute;
-        right:32%;
+        right:39%;
     }
     .rauch.shine{
         position:absolute;
-        left:33%;
+        left:63%;
+    }
+}
+@media (max-width:426px){
+    .mainpage > article{
+        width:350px;
+        height:auto;
+        font-weight: 600;
+        font-size:1.5em;
+    }
+    #personagens div {
+        width: 120px;
+    }
+    .shine:hover{
+        border-radius: 1.5em;
+        
+    }
+    .avatar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+    .avatar > article {
+        font-size: 1.5em;
+    }
+    .grut.shine{
+        position:absolute;
+        right:65%;
+    }
+    
+    .stout.shine{
+        position:absolute;
+        right:36%;
+    }
+    .rauch.shine{
+        position:absolute;
+        left:65%;
     }
 
     footer{
-        top:100%;
-        left: 40%;
+        display:none;
+    }
+}
+@media (max-width:376px){
+    #personagens div {
+        width: 100px;
+    }
+    #personagens article {
+        width: 100px;
+        font-weight: 700;
+    }
+    .avatar > article {
+        font-size: 1.2em;
+    }
+    .avatar >img{
+        width: 100px;
+        width: 100px;
+    }
+    .grut.shine{
+        position:absolute;
+        right:65%;
     }
     
+    .stout.shine{
+        position:absolute;
+        left:39.5%;
+    }
+    .rauch.shine{
+        position:absolute;
+        left:65%;
+    }
+}
+@media (max-width:376px){
+    .mainpage > article{
+        width:250px;
+        height:auto;
+        font-weight: 600;
+        font-size:1.5em;
+    }
+    #personagens div {
+        width: 90px;
+    }
+
+    #personagens article {
+        width: 100px;
+        font-weight: 700;
+    }
+    .avatar > article {
+        font-size: 1.2em;
+    }
+    .avatar >img{
+        width: 90px;
+        width: 90px;
+    }
+    .grut.shine{
+        position:absolute;
+        right:68%;
+    }
+    
+    .stout.shine{
+        position:absolute;
+        left:38.5%;
+    }
+    .rauch.shine{
+        position:absolute;
+        left:68%;
+    }
+}
+@media (max-width:321px){
+   
+    .grut.shine{
+        position:absolute;
+        right:68%;
+    }
+    
+    .stout.shine{
+        position:absolute;
+        left:36.5%;
+    }
+    .rauch.shine{
+        position:absolute;
+        left:68%;
+    }
 }

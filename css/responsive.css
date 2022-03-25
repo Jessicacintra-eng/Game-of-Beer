@@ -23,8 +23,11 @@
 
 @media (max-width:426px){
     body{
-        background-image: url("../image/image/Background-mobile.svg");
+        background-image: url("../image/image/bkgd426.svg");
+        background-color: var(--bckgd);
+        background-blend-mode: overlay;
     }
+    
     h1{
         font-size: 1.8em;
     }
@@ -39,6 +42,15 @@
     h1{
         padding-top:1em;
         font-size: 1.5em ;
+    }
+    
+}
+@media (max-width:321px){
+   
+    body{
+        background-image: url("../image/image/bkgd320.svg");
+        background-color: var(--bckgd);
+        background-blend-mode: overlay;
     }
     
 }

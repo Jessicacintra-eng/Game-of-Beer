@@ -21,6 +21,8 @@ body {
     --primaria:black;
     --secundaria:rgba(169, 169, 169, 0.356);
     --terciaria: sandybrown;
+    --bckgd:rgba(255, 228, 196, 0.644) ; 
+
 }
 
 @font-face {
