@@ -1,3 +1,9 @@
+@media (max-width:1440px){
+    .mainpage > article{
+        font-weight: 600;
+        font-size:2.1em;
+    }
+}
 @media (max-width:1026px){
     .mainpage > article{
         width: 700px;
@@ -19,6 +25,8 @@
 @media (max-width:769px){
     
     .mainpage > article{
+        margin-top: 15px;
+        margin-bottom: 10px;
         width:500px;
         height:auto;
         font-weight: 600;
@@ -49,9 +57,14 @@
         position:absolute;
         left:63%;
     }
+    footer{
+        display:none;
+    }
 }
 @media (max-width:426px){
     .mainpage > article{
+        margin-top: 10px;
+        margin-bottom: 5px;
         width:350px;
         height:auto;
         font-weight: 600;
@@ -86,11 +99,13 @@
         left:65%;
     }
 
-    footer{
-        display:none;
-    }
+   
 }
 @media (max-width:376px){
+    .mainpage > article{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     #personagens div {
         width: 100px;
     }

@@ -7,13 +7,19 @@
     
     
     #botoes{
+        justify-content: right;
+        margin-right: 450px;
         gap: 20px;
     }
+    .lifestory{
+        padding:0;
+        height:300px;
+    }
     .container1{
-        max-width: 200px;
+        max-width: 180px;
     }
     .container2{
-        max-width: 200px;
+        max-width: 180px;
     }
     .container1 .btn-jogarnovamente{
         font-size: 28px;
@@ -34,7 +40,11 @@
         background-color: rgba(255, 228, 196, 0.712);
         border-radius: 1em;
     }
-   
+    #botoes{
+        justify-content: right;
+        margin-right: 350px;
+        gap: 20px;
+    }
     
 }
 @media (max-width:426px){
@@ -43,11 +53,16 @@
     }
     .avatar img{
         width: 150px;
-        height: 300px;
+        height: 200px;
+    }
+    #botoes{
+        justify-content: right;
+        margin-right: 110px;
+        gap: 20px;
     }
     .avatar{
         width: 150px;
-        height: 300px;
+        height: 200px;
     }
     .lifestory{
         width: 250px;
@@ -57,10 +72,10 @@
     }
    
     .container1{
-        max-width: 200px;
+        max-width: 150px;
     }
     .container2{
-        max-width: 200px;
+        max-width: 150px;
     } 
     .container1 .btn-jogarnovamente{
         font-size: 28px;
@@ -69,27 +84,20 @@
     .container2 .btn-chega{
         font-size: 28px;
     }
-    #imagemGanhou>img {
-        width: 300px;
-        height: 200px;
-      }
-      footer{
-          top:0;
-          right:25%;
-          height:25px;
-      }
-      #rights{
-          flex-direction: row;
-      }
-      span{
-          height:25px;
-      }
+     
 }
 @media (max-width:376px){
-   
+    
+    .lifestory{
+        justify-content: flex-start;
+        height: fit-content;
+        
+        width: 200px;
+    }
     #botoes{
         gap:0;
-        flex-direction: column;
+        margin-right:50px;
+        margin-top: 20px;
     }
     .container1{
         max-width: 150px;
@@ -105,4 +113,30 @@
         font-size: 20px;
     }
     
+}
+@media (max-width:376px){
+    .lifestory{
+        justify-content: flex-start;
+        height: fit-content;
+        
+        width: 300px;
+    }
+    .story{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .avatar img{
+        width: 150px;
+        height: 150px;
+    }
+    .avatar{
+        width: 150px;
+        height: 150px;
+    }
+    #botoes{
+        gap:0;
+        margin-right:20px;
+        margin-top: 20px;
+    }
+
 }
