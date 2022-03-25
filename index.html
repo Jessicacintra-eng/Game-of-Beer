@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/header-footer.css">
+    <link rel="stylesheet" href="./css/responsiveMain.css">
     <link rel="stylesheet" href="./css/responsive.css">
 
 
@@ -32,21 +33,22 @@
     </header>
     <main>
         <article> Olá, forasteiro! Você parece perdido... bom... aqui gostamos de desafios. Você poderá enfrentar um de nós três, não se engane por nossas aparências, somos especialistas, cada um com um nível de expertise diferente (e um estilo em seu sobrenome). Se você for capaz de responder nossas trivias lhe diremos qual caminho seguir... você topa?</article>
-        <section id="personagens">
-            <div onclick="avatar1()" class = "grut shine">
-                <img  src="./image/image/Grut.svg" alt="">
-                <article>Barthar Gruitgor</article>
+
+        <section id="personagens" >
+            <div onclick="avatar1()" class = "grut shine avatar " id="dwarf-grut">
+                <img  src="./image/image/Grut.svg" alt="" >
+                <article >Barthar Gruitgor</article>
             </div>
-            <div  onclick="avatar2()" class = "stout shine">
-                <img src="./image/image/Stout.svg" alt="">
-                <article>Nyssora Stoutroar</article>
+            <div  onclick="avatar2()" class = "stout shine avatar " id="dwarf-stout">
+                <img src="./image/image/Stout.svg" alt="" >
+                <article >Nyssora Stoutroar</article>
             </div>
-            <div  onclick="avatar3()" class = "rauch shine">
-                <img src="./image/image/Rauch.svg" alt="">
-                <article>Thurmyr Rauchgam</article>
+            <div  onclick="avatar3()" class = "rauch shine avatar " id="dwarf-rauch">
+                <img src="./image/image/Rauch.svg" alt="" >
+                <article >Thurmyr Rauchgam</article>
             </div>
         </section>
-        
+
     </main>
     <footer id="footer">
         <span>&#169;</span>
@@ -70,9 +72,10 @@
         <span>
         </div>
         </div>
-    
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src='https://unpkg.com/flickity@2.3.0/dist/flickity.pkgd.min.js'></script>
     <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/mobile.js"></script>
 </body>
 
 </html>

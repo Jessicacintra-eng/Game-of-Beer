@@ -1,16 +1,15 @@
 .pergunta{
     width: 700px ;
-    font-size: 40px;
+    font-size: 50px;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 50px;
 }
 .desafio{
     display: flex;
     justify-content: flex-start;
-    font-size: 45px;
-    padding: 15px;
+    font-size: 55px;
 }
-.respostas p:hover{
-    background-color: burlywood;
-    border-radius: 0.5em;
+.respostas > p{
+    background-color: aqua ;
+    font-size: 40px;
 }
