@@ -110,7 +110,7 @@ function responderFase4(resposta) {
             if (resposta == "d") {
                 alert(`proost. ${resposta.toUpperCase()} está certíssima!`);
                 alert("Os belgas adoram umas cervejas diferentonas, eu, particularmente, amo uma witbier no verão...")
-                window.location.assign("../avatar1/av2stg5.html");
+                window.location.assign("../avatar2/av2stg5.html");
                 break;
             } else if (resposta == "b" || resposta == "c" || resposta == "a") {
                 if (i < 1) {

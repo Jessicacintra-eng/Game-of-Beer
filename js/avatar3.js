@@ -76,7 +76,7 @@ function responderFase3(resposta) {
             break;
         } else {
             if (resposta == "b") {
-                alert(`Respeito quem entende de leis a resposta é a letra${resposta.toUpperCase()}!`);
+                alert(`Respeito quem entende de leis a resposta é a letra ${resposta.toUpperCase()}!`);
                 alert("O código de Hamurabi estabelecia a porção diária de cerveja de 2L/dia para trabalhadores, 3L/dia para funcionários públicos, administradores e sacerdotes tinham direito a 5L/dia. ")
                 window.location.assign("../avatar3/av3stg4.html");
                 break;

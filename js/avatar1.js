@@ -35,7 +35,7 @@ function responderFase1(resposta) {
     }
 }
 
-function responderFase1(resposta) {
+function responderFase2(resposta) {
     var tentativas = 2;
     for (var i = 0; i < tentativas; i++) {
         resposta = prompt("Digite a letra correspondente a sua resposta: ");
@@ -67,7 +67,7 @@ function responderFase1(resposta) {
     }
 }
 
-function responderFase1(resposta) {
+function responderFase3(resposta) {
     var tentativas = 2;
     for (var i = 0; i < tentativas; i++) {
         resposta = prompt("Digite a letra correspondente a sua resposta: ");
