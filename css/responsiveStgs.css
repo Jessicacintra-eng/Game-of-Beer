@@ -8,12 +8,17 @@
     
     #botoes{
         justify-content: right;
-        margin-right: 450px;
+        margin-right: 650px;
         gap: 20px;
     }
-    .lifestory{
-        padding:0;
+    .desafio{
+        font-size: 42px;
+    }
+    .pergunta{
+        font-size: 40px;
+        width: 450px;
         height:300px;
+        padding-left: 30px ;
     }
     .container1{
         max-width: 180px;
@@ -30,11 +35,22 @@
     }
 }
 @media (max-width:769px) {
-
-    .lifestory{
-        font-size: 35px;
+    .desafio{
+        font-size: 42px;
+    }
+    .pergunta> p{
+        font-size: 30px;
+    }
+    .pergunta{
+        font-size: 40px;
         background-color: rgba(255, 228, 196, 0.712);
         border-radius: 1em;
+        width: 450px;
+        height:300px;
+        padding-left: 30px ;
+    }
+    .respostas > p{
+        font-size: 30px;
     }
     #botoes{
         justify-content: right;
@@ -44,6 +60,9 @@
     
 }
 @media (max-width:426px){
+    .desafio{
+        font-size: 28px;
+    }
     .story{
         width: max-content;
     }
@@ -60,11 +79,17 @@
         width: 150px;
         height: 200px;
     }
-    .lifestory{
+    .pergunta{
         width: 250px;
-        height: 325px;
+        height: fit-content;
         font-size: 25px;
         margin-left: 5px;
+    }
+    .pergunta > p{
+     font-size: 28px;
+    }
+    .respostas > p{
+        font-size: 28px;
     }
    
     .container1{
@@ -83,17 +108,31 @@
      
 }
 @media (max-width:376px){
-    
-    .lifestory{
+    .desafio{
+        display: none;
+    }
+    .story{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .pergunta{
         justify-content: flex-start;
         height: fit-content;
-        
-        width: 200px;
+        width: 300px;
     }
+    .avatar img{
+        width: 150px;
+        height: 150px;
+    }
+    .avatar{
+        width: 150px;
+        height: 150px;
+    }
+    
     #botoes{
         gap:0;
         margin-right:50px;
-        margin-top: 20px;
+        margin-top: 0px;
     }
     .container1{
         max-width: 150px;
@@ -110,29 +149,19 @@
     }
     
 }
-@media (max-width:376px){
-    .lifestory{
+@media (max-width:320px){
+    .pergunta{
         justify-content: flex-start;
         height: fit-content;
         
         width: 300px;
     }
-    .story{
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-    .avatar img{
-        width: 150px;
-        height: 150px;
-    }
-    .avatar{
-        width: 150px;
-        height: 150px;
-    }
+    
+    
     #botoes{
         gap:0;
         margin-right:20px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
 }
