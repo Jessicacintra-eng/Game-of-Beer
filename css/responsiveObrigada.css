@@ -18,10 +18,7 @@
     #agradecimento article{
         font-size: 60px;
     }
-    footer{
-        top:-10%;
-        font-size: small ;
-    }
+   
 }
 
 @media(max-width:769px) {
@@ -32,6 +29,7 @@
         max-width: 550px;
         justify-content: space-evenly;
     }
+   
     
 }
 @media(max-width:426px) {
@@ -59,12 +57,7 @@
         height:35px;
         width: 35px;
     }
-    footer{
-        justify-content: center;
-        font-size: small ;
-        top:-5%;
-        height:25px;
-    }
+    
 
 }
 @media (max-width:376px){

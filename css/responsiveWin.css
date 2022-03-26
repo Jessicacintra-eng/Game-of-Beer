@@ -4,6 +4,10 @@
     #botoes{
         gap: 20px;
     }
+    #imagemGanhou>img {
+        width: 300px;
+        height: 250px;
+      }
     .container1{
         max-width: 200px;
     }
@@ -54,10 +58,15 @@
       }
 }
 @media (max-width:376px){
+    .conquer{
+        margin-top: 40px;
+    }
+    main{
+        margin-top:20px ;
+    }
    
     #botoes{
         gap:0;
-        flex-direction: column;
     }
     .container1{
         max-width: 150px;
