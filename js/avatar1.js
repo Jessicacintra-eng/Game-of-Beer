@@ -6,7 +6,8 @@ function jogar() {
 function responderFase1(resposta) {
     var tentativas = 2;
     for (var i = 0; i < tentativas; i++) {
-        resposta.toLowerCase() = prompt("Digite a letra correspondente a sua resposta: ");
+        resposta = prompt("Digite a letra correspondente a sua resposta: ");
+        resposta  = resposta.toLowerCase();
         if (resposta == null) {
             break;
         } else {
@@ -38,7 +39,8 @@ function responderFase1(resposta) {
 function responderFase2(resposta) {
     var tentativas = 2;
     for (var i = 0; i < tentativas; i++) {
-        resposta.toLowerCase() = prompt("Digite a letra correspondente a sua resposta: ");
+        resposta = prompt("Digite a letra correspondente a sua resposta: ");
+        resposta  = resposta.toLowerCase();
         if (resposta == null) {
             break;
         } else {
@@ -70,7 +72,8 @@ function responderFase2(resposta) {
 function responderFase3(resposta) {
     var tentativas = 2;
     for (var i = 0; i < tentativas; i++) {
-        resposta.toLowerCase() = prompt("Digite a letra correspondente a sua resposta: ");
+        resposta = prompt("Digite a letra correspondente a sua resposta: ");
+        resposta  = resposta.toLowerCase();
         if (resposta == null) {
             break;
         } else {
